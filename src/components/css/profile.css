@@ -1,0 +1,140 @@
+/* Container for the entire profile page */
+.profile-page {
+    max-width: 600px;
+    height: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+  }
+  
+  /* Profile Header Section */
+  .profile-header {
+    margin-bottom: 2rem;
+  }
+  
+  /* Avatar container and initial styling */
+  .avatar-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+  }
+  
+  .header-avatar-initial {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  /* Edit Profile Form Styles */
+  .edit-profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .edit-name-input,
+  .edit-username-input {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Save Button inside Edit Form */
+  .save-btn {
+    background-color: #070157;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .save-btn:hover {
+    background-color: #080071;
+  }
+  
+  /* Profile Actions (Edit button) */
+  .profile-actions {
+    margin-bottom: 1rem;
+  }
+  
+  .edit-btn {
+    background-color: #efefef;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  
+  /* Profile Tabs (e.g., Posted) */
+  .profile-tabs {
+    margin-bottom: 1rem;
+  }
+  
+  .tab-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #555;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .tab-btn.active {
+    color: #111;
+    font-weight: 600;
+    border-bottom: 2px solid #111;
+  }
+  
+  /* Profile Content Section */
+  .profile-content {
+    margin-top: 2rem;
+  }
+  
+  .created-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* "Post" Button */
+  .post-btn {
+    background-color: #100387;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .post-btn:hover {
+    background-color: #10048f;
+  }
+  
